@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href="https://html5-templates.com/" />
+    <title>Simulated Agent Side of Cobrowse</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      id="glance-cobrowse"
+      type="text/javascript"
+      src="https://www.glancecdn.net/cobrowse/CobrowseJS.ashx?group=20541&site=production&script=Agent"
+      data-groupid="20541"
+      data-site="production"
+      charset="UTF-8"
+    ></script>
+    <script src="agentside.js"></script>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="sessionKey">Session Key:</label>
+        <input type="text" id="sessionKey" name="sessionKey" value="2468" />
+      </div>
+      <div>
+        <label for="partnerid">Partner ID:</label>
+        <input type="text" id="partnerid" name="partnerid" value="20541" />
+      </div>
+      <div>
+        <label for="partneruserid">Partner User ID:</label>
+        <input type="text" id="partneruserid" name="partneruserid" value="Jbelmonte" />
+      </div>
+      <div>
+        <label for="loginkey">Login Key:</label>
+        <input type="text" id="loginkey" name="loginkey" />
+      </div>
+      <button id="Submit">Submit</button>
+    </form>
+    <div><iframe width="100%" height="1000px" name="agentframe"></iframe></div>
+  </body>
+</html>
